@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Admin',
                 'role' => 'admin',
-                'password' => 'Admin@12345', // auto-hashed by cast
+                'password' => 'Admin@12345',
             ]
         );
     }

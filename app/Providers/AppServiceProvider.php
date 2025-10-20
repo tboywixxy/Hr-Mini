@@ -10,12 +10,11 @@ class AppServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        //
+        
     }
 
     public function boot(Router $router): void
     {
-        // Make 'admin' available as a route middleware alias
         $router->aliasMiddleware('admin', EnsureAdmin::class);
     }
 }
